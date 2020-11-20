@@ -6,10 +6,6 @@
 }
 
 /* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
-  margin-top: 60px;
-}
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -19,28 +15,23 @@
 }
 
 #lezioni {
+  margin-top: 100px;
   text-align: center;
 }
 
 /* BLOCCO STEPS */
-#steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-}
 
 #steps {
+  margin-top: 100px;
   text-align: center;
 }
 
 /* BLOCCO PERCHE */
 #why {
+  margin-top: 100px;
   text-align: center;
 }
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-}
 
 #why .row img {
   background-color: #428bca;
@@ -65,4 +56,12 @@ img {
 
 .clear {
   clear: both;
+}
+
+.internal-margin {
+  margin-bottom: 50px;
+}
+
+h3, hr {
+  margin: 30px auto;
 }
