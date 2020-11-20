@@ -1,12 +1,4 @@
-.row {
-  width: 992px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-}
-
 /* BLOCCO LEZIONI */
-
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
@@ -15,16 +7,17 @@
 }
 
 #lezioni {
-  margin-top: 100px;
+  margin-top: 30px;
   text-align: center;
 }
+/* END BLOCCO LEZIONI */
 
 /* BLOCCO STEPS */
-
 #steps {
   margin-top: 100px;
   text-align: center;
 }
+/* END BLOCCO STEPS */
 
 /* BLOCCO PERCHE */
 #why {
@@ -32,12 +25,12 @@
   text-align: center;
 }
 
-
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
 }
+/* END BLOCCO PERCHE */
 
 /* COMMON */
 .row::after {
@@ -61,7 +54,11 @@ img {
 .internal-margin {
   margin-bottom: 50px;
 }
+h1 {
+  margin-bottom: 25px;
+}
 
 h3, hr {
   margin: 30px auto;
 }
+/* END COMMON */
