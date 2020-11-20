@@ -8,8 +8,7 @@
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
 #lezioni .row>.right {
-  width: 50%;
-  float: left;
+  margin-top: 60px;
 }
 
 #lezioni .row img {
@@ -27,8 +26,6 @@
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
-  float: left;
-  width: 33%;
 }
 
 #steps {
@@ -43,8 +40,6 @@
 #why .row>.first,
 #why .row>.second,
 #why .row>.third {
-  width: 100%;
-  margin-top: 80px;
 }
 
 #why .row img {
